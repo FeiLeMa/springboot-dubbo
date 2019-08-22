@@ -1,0 +1,12 @@
+server:
+  port: 9391
+spring:
+  dubbo:
+    application:
+      name: provider
+    server: true
+    registry:
+      address: zookeeper://47.240.11.229:2181
+    protocol:
+      name: dubbo
+      port: 20880
